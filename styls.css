@@ -1,0 +1,89 @@
+body {
+  margin:0;
+  font-size:16px;
+  font-family:verdana,sans-serif;
+  color: #333;
+} 
+
+header {
+text-align:center;
+margin: 0;
+}
+
+.careers img {
+width: 100％;
+}
+
+.careers > h1 {
+  text-align: center;
+padding: 64px 0;
+}
+
+.careers .container{
+  margin: 0 32px;
+}
+
+.careers p{
+  line-height: 1.8;
+}
+
+.careers section{
+  padding-bottom: 64px;
+}
+
+@media (min-width: 900px) {
+  header .container{
+   display: flex;
+   width: 800px;
+   margin: 0 auto;
+  }
+}
+
+header .info{
+  width: 60%;
+  align-self:center;
+}
+
+header .pic{
+  width: 40%;
+}
+
+.careers .container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.careers section{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .careers section :nth-child(even){
+  flex-direction: row-reverse;
+} */
+
+.careers .pic{
+  width: 50%;
+}
+
+.careers .info{
+  width: calc(50% - 32px);
+}
+
+.running{
+  margin-bottom: 60px;
+} 
+
+.running h3{
+  margin: 0;
+}
+.contact ul{
+margin: 0;
+display: flex;
+/* justify-content:space-between; */
+list-style-type: none;
+float: right;
+padding-right: 50px;
+}
+
+
