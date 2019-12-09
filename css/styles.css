@@ -87,6 +87,14 @@ padding: 64px 0;
 .running h3{
   margin: 0;
 }
+
+.running li:nth-child(7)
+{
+  background:navy;
+  color: yellow;
+}
+
+
 .contact ul{
 margin: 0;
 display: flex;
